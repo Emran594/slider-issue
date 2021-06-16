@@ -1,0 +1,29 @@
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3 {
+	height: 120vh;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+	background-image: url(../images/bg1.jpg);
+}
+.fade-carousel .slides .slide-2 {
+	background-image: url(../images/bg2.jpg);
+}
+.fade-carousel .slides .slide-3 {
+	background-image: url(../images/bg3.jpg);
+}
+.item.slides:before {
+    background: rgba(0, 0, 0, 1);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
